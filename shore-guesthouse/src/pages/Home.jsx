@@ -1,8 +1,8 @@
-import GallerySlider from "../components/GallerySlider";
-import HomepageHero from "../components/HomepageHero";
-import HomepageIntro from "../components/HomepageIntro";
-import HomepageAbout from "../components/HomepageAbout";
-import HomepageCTA from "../components/HomepageCTA";
+import GallerySlider from "../components/homepage/GallerySlider";
+import HomepageHero from "../components/homepage/HomepageHero";
+import HomepageIntro from "../components/homepage/HomepageIntro";
+import HomepageAbout from "../components/homepage/HomepageAbout";
+import HomepageCTA from "../components/homepage/HomepageCTA";
 
 const Home = () => {
   return (

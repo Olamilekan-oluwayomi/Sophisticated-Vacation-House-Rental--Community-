@@ -1,4 +1,4 @@
-import galleryImages from "../data/galleryInfinte";
+import galleryImages from "../../data/galleryInfinte";
 import "./gallery-slider.css";
 
 function GallerySlider() {
