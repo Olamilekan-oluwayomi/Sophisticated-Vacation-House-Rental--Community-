@@ -1,10 +1,10 @@
 
-
 import GalleryHero from "../components/gallery/GalleryHero";
 import ExteriorViews from "../components/gallery/ExteriorViews";
 import InteriorViews from "../components/gallery/InteriorViews";
 import Neighborhood from "../components/gallery/Neighborhood";
-// import GalleryCTA from "../components/gallery/GalleryCTA";
+import FeaturedNeighborhood from "../components/gallery/StandAloneFeatured";
+
 
 function Gallery() {
   return (
@@ -13,9 +13,7 @@ function Gallery() {
       <ExteriorViews />
       <InteriorViews />
       <Neighborhood />
-        {/* 
-        
-        <GalleryCTA />  */}
+      <FeaturedNeighborhood />
     </>
   );
 }
