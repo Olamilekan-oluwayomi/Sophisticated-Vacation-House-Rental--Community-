@@ -1,8 +1,8 @@
-import galleryImages from "../../data/galleryInfinte";
 import "./gallery-slider.css";
 
-function GallerySlider() {
-  const images = [...galleryImages, ...galleryImages];
+function GallerySlider({ images,
+  showCaptions = true }) {
+  const gallery = [...images, ...images];
 
   return (
     <section className="relative overflow-hidden py-20">
@@ -14,7 +14,7 @@ function GallerySlider() {
 
       <div className="marquee">
         <div className="marquee__track">
-          {images.map((item, index) => (
+          {gallery.map((item, index) => (
             <article
               key={`${item.id}-${index}`}
               className={`shrink-0 ${
@@ -41,9 +41,11 @@ function GallerySlider() {
                 />
               </div>
 
-              <p className="mt-4 font-serif text-sm text-stone-900">
-                {item.caption}
-              </p>
+              {showCaptions && (
+                  <p className="mt-4 font-serif text-sm text-stone-900">
+                     {item.caption}
+                  </p>
+              )}
             </article>
           ))}
         </div>

@@ -2,7 +2,7 @@
 
 import GalleryHero from "../components/gallery/GalleryHero";
 import ExteriorViews from "../components/gallery/ExteriorViews";
-// import InteriorViews from "../components/gallery/InteriorViews";
+import InteriorViews from "../components/gallery/InteriorViews";
 // import Neighborhood from "../components/gallery/Neighborhood";
 // import GalleryCTA from "../components/gallery/GalleryCTA";
 
@@ -11,7 +11,8 @@ function Gallery() {
     <>
       <GalleryHero />
       <ExteriorViews />
-        {/* <InteriorViews />
+      <InteriorViews />
+        {/* 
         <Neighborhood />
         <GalleryCTA />  */}
     </>
