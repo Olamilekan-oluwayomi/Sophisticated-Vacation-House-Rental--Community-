@@ -1,11 +1,12 @@
-import Header from "../components/Header";
-import HomepageHeroHero from "../components/HomepageHero";
+import HomepageHero from "../components/HomepageHero";
+import HomepageIntro from "../components/HomepageIntro";
 
 const Home = () => {
   return (
     <>
-      <HomepageHeroHero />
-      {/* <Intro />
+      <HomepageHero />
+      <HomepageIntro />
+      {/* 
       <GallerySlider />
       <About />
       <CTA />
