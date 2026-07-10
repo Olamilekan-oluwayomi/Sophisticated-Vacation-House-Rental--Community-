@@ -1,0 +1,33 @@
+.marquee {
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee__track {
+  display: flex;
+  width: max-content;
+  gap: 3rem;
+
+  animation: marquee 30s linear infinite;
+}
+
+.marquee:hover .marquee__track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .marquee__track {
+    gap: 2rem;
+    animation-duration: 22s;
+  }
+}

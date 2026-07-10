@@ -1,3 +1,4 @@
+import GallerySlider from "../components/GallerySlider";
 import HomepageHero from "../components/HomepageHero";
 import HomepageIntro from "../components/HomepageIntro";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <>
       <HomepageHero />
       <HomepageIntro />
+      <GallerySlider />
       {/* 
       <GallerySlider />
       <About />
