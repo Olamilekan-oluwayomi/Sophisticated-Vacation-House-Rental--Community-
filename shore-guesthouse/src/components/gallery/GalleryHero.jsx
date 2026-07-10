@@ -23,7 +23,7 @@ function GalleryHero() {
 
         {/* Content */}
         <div className="absolute inset-0 flex items-center justify-center px-6">
-          <div className="max-w-2xl text-center">
+          <div className="max-w-xl text-center md:max-w-2xl">
             <h2 className="font-serif text-3xl leading-tight text-white md:text-5xl">
               Experience Shore Guesthouse.
               <br />
