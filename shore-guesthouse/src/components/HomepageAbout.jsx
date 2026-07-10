@@ -7,12 +7,12 @@ function About() {
         <p className="mb-8 font-serif text-sm text-stone-700">About</p>
 
         <div className="max-w-5xl space-y-12">
-          <p className="font-serif text-4xl leading-tight tracking-tight text-stone-900 md:text-5xl lg:text-6xl">
+          <p className="font-serif text-2xl leading-tight tracking-tight text-stone-900 md:text-3xl lg:text-4xl">
             Tucked into the rugged cliffs of Santorini, the Shore Guesthouse
             offers a retreat with uninterrupted views of the caldera.
           </p>
 
-          <p className="font-serif text-3xl leading-tight text-stone-900 md:text-4xl lg:text-5xl">
+          <p className="font-serif text-2xl leading-tight text-stone-900 md:text-3xl lg:text-4xl">
             <Link
               to="/information"
               className="text-blue-500 underline underline-offset-4 transition-colors hover:text-blue-600"
