@@ -3,6 +3,8 @@ import Home from './pages/Home'
 import Gallery from './pages/Gallery'
 import Information from './pages/Information'
 import Layout from './components/Layout'
+import Booking from './pages/Booking'
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/information" element={<Information />} />
+        <Route path="/booking" element={<Booking />} />
       </Route>
     </Routes>
   )
