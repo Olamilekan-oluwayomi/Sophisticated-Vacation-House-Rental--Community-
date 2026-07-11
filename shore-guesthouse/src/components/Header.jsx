@@ -70,11 +70,15 @@ function Header() {
 
         <button
           onClick={() => setIsOpen(!isOpen)}
+          aria-expanded={isOpen}
+          aria-controls="mobile-menu"
+          id="mobile-menu-button"
           className="flex h-full w-24 items-center justify-center text-lg"
         >
           {isOpen ? "Close" : "Menu"}
         </button>
       </nav>
+      
 
       {/* Mobile Menu */}
       <AnimatePresence>
@@ -84,6 +88,8 @@ function Header() {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
+            id="mobile-menu"
+            aria-labelledby="mobile-menu-button"
             className="overflow-hidden border-b border-stone-300 bg-white text-center md:hidden"
           >
             <NavLink
