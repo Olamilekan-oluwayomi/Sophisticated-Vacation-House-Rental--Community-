@@ -1,4 +1,4 @@
-import historyImage from "../../assets/gallery/information/image-block.avif";
+import historyImage from "../../assets/gallery/information/Image-block.avif";
 import streetImage from "../../assets/gallery/information/street.avif";
 
 function NeighborhoodHistory() {
