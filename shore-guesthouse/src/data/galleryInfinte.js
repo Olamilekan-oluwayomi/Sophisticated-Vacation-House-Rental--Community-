@@ -1,4 +1,4 @@
-import bedroom01 from "../assets/galleryInfinite/bedroom-01.avif";
+import bedroom01 from "../assets/galleryInfinite/bedroom-01.webp";
 import bedroom02 from "../assets/galleryInfinite/bedroom-02.avif";
 import bedroom03 from "../assets/galleryInfinite/bedroom-03.avif";
 import bedroom04 from "../assets/galleryInfinite/bedroom-04.avif";
