@@ -129,6 +129,7 @@ function BookingForm({
             <button
               type="button"
               onClick={decreaseGuests}
+              aria-label="Decrease guest count"
             >
               −
             </button>
@@ -138,6 +139,7 @@ function BookingForm({
             <button
               type="button"
               onClick={increaseGuests}
+              aria-label="Increase guest count"
             >
               +
             </button>
