@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-import ctaImage from "../assets/Homepage-cta.avif";
+import ctaImage from "../assets/Homepage-cta-2400w.avif";
+import ctaImageSmall from "../assets/Homepage-cta-800w.avif";
+import ctaImageMedium from "../assets/Homepage-cta-1600w.avif";
 
 function CTA() {
   return (
@@ -7,8 +9,11 @@ function CTA() {
       {/* Background Image */}
       <img
         src={ctaImage}
+        srcSet={`${ctaImageSmall} 800w, ${ctaImageMedium} 1600w, ${ctaImage} 2400w`}
+        sizes="100vw"
         alt="Shore Guesthouse overlooking the sea"
         className="absolute inset-0 h-full w-full object-cover"
+        loading="lazy"
       />
 
       {/* Overlay */}
