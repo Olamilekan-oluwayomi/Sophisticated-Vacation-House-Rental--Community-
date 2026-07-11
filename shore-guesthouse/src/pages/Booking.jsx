@@ -5,8 +5,8 @@ import BookingOverview from "../components/booking/BookingOverview";
 import BookingForm from "../components/booking/BookingForm";
 import BookingSummary from "../components/booking/BookingSummary";
 import BookingModal from '../components/booking/BookingModal';
-// import HouseRules from "../components/booking/HouseRules";
-// import ContactSection from "../components/booking/ContactSection";
+import HouseRules from "../components/booking/HouseRules";
+import ContactSection from "../components/booking/ContactSection";
 
 function Booking() {
     const [booking, setBooking] = useState({
@@ -16,8 +16,8 @@ function Booking() {
     requests: "",
   });
 
-  const [errors, setErrors] = useState({});
-const [showModal, setShowModal] = useState(false);
+    const [errors, setErrors] = useState({});
+    const [showModal, setShowModal] = useState(false);
 
   return (
     <>
@@ -39,9 +39,9 @@ const [showModal, setShowModal] = useState(false);
 
           </div>
         </section>
-{/*
+
         <HouseRules />
-        <ContactSection /> */}
+        <ContactSection />
 
 
         <BookingModal

@@ -163,7 +163,7 @@ function BookingForm({
           type="submit"
           className="rounded-full bg-stone-900 px-8 py-4 text-white transition hover:bg-stone-700 cursor-pointer"
         >
-          Check Availability
+          RESERVE NOW
         </button>
       </div>
     </form>
