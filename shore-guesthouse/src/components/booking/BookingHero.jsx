@@ -1,4 +1,4 @@
-import heroImage from "../../assets/gallery/booking/hero.jpg";
+import heroImage from "../../assets/gallery/booking/hero.avif";
 
 function BookingHero() {
   return (

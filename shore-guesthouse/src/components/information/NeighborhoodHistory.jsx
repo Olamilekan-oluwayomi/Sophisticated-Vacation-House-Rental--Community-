@@ -1,5 +1,5 @@
-import historyImage from "../../assets/gallery/information/image-block.jpg";
-import streetImage from "../../assets/gallery/information/street.png";
+import historyImage from "../../assets/gallery/information/image-block.avif";
+import streetImage from "../../assets/gallery/information/street.avif";
 
 function NeighborhoodHistory() {
   return (

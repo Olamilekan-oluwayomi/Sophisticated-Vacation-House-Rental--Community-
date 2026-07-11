@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ctaImage from "../assets/Homepage-cta.jpg";
+import ctaImage from "../assets/Homepage-cta.avif";
 
 function CTA() {
   return (

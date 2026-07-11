@@ -1,4 +1,4 @@
-import familyImage from "../../assets/gallery/information/family.jpg";
+import familyImage from "../../assets/gallery/information/family.avif";
 
 function MyStory() {
   return (

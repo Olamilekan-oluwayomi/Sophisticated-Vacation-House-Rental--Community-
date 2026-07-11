@@ -1,4 +1,4 @@
-import featuredImage from "../../assets/gallery/neigborhood-07.jpg";
+import featuredImage from "../../assets/gallery/neigborhood-07.avif";
 
 function FeaturedNeighborhood() {
   return (

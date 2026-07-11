@@ -1,4 +1,4 @@
-import bedroom01 from "../assets/galleryInfinite/bedroom-01.webp";
+import bedroom01 from "../assets/galleryInfinite/bedroom-01.avif";
 import bedroom02 from "../assets/galleryInfinite/bedroom-02.avif";
 import bedroom03 from "../assets/galleryInfinite/bedroom-03.avif";
 import bedroom04 from "../assets/galleryInfinite/bedroom-04.avif";
@@ -7,7 +7,7 @@ import breakfast02 from "../assets/galleryInfinite/breakfast-02.avif";
 import exterior01 from "../assets/galleryInfinite/exterior-01.avif";
 import exterior02 from "../assets/galleryInfinite/exterior-02.avif";
 import exterior03 from "../assets/galleryInfinite/exterior-03.avif";
-import street01 from "../assets/galleryInfinite/Image.jpg";
+import street01 from "../assets/galleryInfinite/Image.avif";
 import pool01 from "../assets/galleryInfinite/pool-01.avif";
 import pool02 from "../assets/galleryInfinite/pool-02.avif";
 import pool03 from "../assets/galleryInfinite/pool-03.avif";
