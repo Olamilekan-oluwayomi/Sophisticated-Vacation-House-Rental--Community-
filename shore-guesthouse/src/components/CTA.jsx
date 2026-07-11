@@ -27,7 +27,7 @@ function CTA() {
           </p>
 
           <h2 className="mb-8 font-serif text-4xl leading-tight md:text-6xl lg:text-7xl">
-            Summer 2025
+            Summer 2026
             <br />
             Dates Available
           </h2>
